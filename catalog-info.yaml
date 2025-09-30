@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: spring_2.x
+  description: A software component for managing and deploying Spring 2.x applications, developed by KeertiPusarlaa.
+  annotations:
+    github.com/project-slug: KeertiPusarlaa/spring_2.x
+    jira/project-key: SCRUM
+    jira/label: backstage-component:spring_2.x
+spec:
+  type: application
+  owner: ICS
+  lifecycle: experimental
